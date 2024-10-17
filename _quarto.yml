@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  favicon: "img/c7082.png"
+  title: "R Stats Bootcamp"
+  sidebar:
+    logo: "img/c7082.png"
+    style: "docked"
+    search: true
+    contents: 
+      - section: "Information"
+        contents:
+          - index.qmd
+          - schedule.qmd
+      - section: "Labs"
+        contents:
+          - 00.Preparation.qmd
+          - 01.Anaconda.qmd
+          - 02.Colab.qmd
+          
+format:
+  html:
+    highlight-style: a11y
+    theme:
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+
+editor: visual

@@ -1,0 +1,115 @@
+---
+title: "01 Anaconda"
+---
+
+<br>
+
+<center>![green Ouroboros (AI generated via Craiyon.com)](img/ouroboros.jpeg){width="250"}</center>
+
+## 1 The Anaconda and Python labs
+
+The purpose of this page is to get you up and running in the "ecosystem" of Anaconda and Jupyter Lab, and associated aspects of the workflow on your local machine.
+
+The labs you will engage with are an introduction to `Python` and `Pandas` (a popular package for data manipulation and basic analysis in Python), or an easy refresh if you have already used the tools.
+
+**Anaconda** is widely used to manage toolsets and packages for data science projects including versions, environments and associated settings.
+
+**Jupyter Lab** is an interface that is very popular for embedding formatted information with Python computer code and allows interactive computing right in a regular web browser.
+
+### 1.1 Jupyter Lab kernal
+
+Launch Anaconda and Jupyter Lab
+
+<center>![Anaconda dash with Jupyter Lab - note the environment selection](img/launch.png){width="500"}</center>
+
+<br>
+
+The kernal for your session refers to the software engine that will execute your code. For some applications, you may want to manage several different kernals. For now do not worry about this and select the default kernal.
+
+<center>![Choose defaul kernal](img/kernal.png){width="500"}</center>
+
+<br>
+
+### 1.2 Working directory
+
+I recommend just using the navigation pane on the left hand side of Jupyter Lab to make a new folder that will be the working directory you will work with locally for these labs.
+
+<center>![Create a working directory](img/dir.png){width="500"}</center>
+
+<br>
+
+My working directory looks like this:
+
+<center>![My working directory](img/wkdir.png){width="500"}</center>
+
+<br>
+
+## 2 We need to talk about `The Console`
+
+The Console implemented in various operating systems is powerful, fast way to manipulate files and to issue commands. You can accomplish a lot with very little knowledge in *relative* safety in modern computing environments. We will just scratch the surface here, but it is highly useful to get used to using the console.
+
+### 2.1 Launch a new console
+
+<center>![Console launch](img/console.png){width="500"}</center>
+
+<br>
+
+Mine looks like this (yours may differ slightly).
+
+<center>![Console launch](img/console1.png){width="500"}</center>
+
+<br>
+
+Note the console is a way to interact with our Python environment for "system commands" we may not wish to embed in a notebook.
+
+## 3 `git` `clone` the lab materials
+
+The Python lab materials are available on Github at `https://github.com/C7082-2022/labs-python`
+
+We will use the Git command `clone` to make a copy of the labs-python repository on your local machine. Of course you *can* download all the stuff manually (like any [muggle](https://en.wikipedia.org/wiki/Muggle) would), but it is far more powerful and so easy to `clone` it using Git.
+
+### 3.1 Using clone
+
+Execute the following command in your Console (remember `shift + enter` to execute a cell):
+
+``` python
+!git clone https://github.com/C7082-2022/labs-python
+```
+
+<br>
+
+Your console should look similar to mine:
+
+<center>![!git clone](img/clone.png){width="500"}</center>
+
+<br>
+
+### 3.2 Check the repo has been downloaded successfully
+
+You can now browse the repo in your local file structure on the left file browser panel. Mine looks like this:
+
+<center>![Your local repo](img/repo.png){width="500"}</center>
+
+<br>
+
+## 4 Open first lab
+
+Navigate to the `01-Python` folder inside the root `labs-python` folder.
+
+Now you can open the first lab notebook (just doublke click to open in Jupyter Lab) and work through the material interactively.
+
+<center>![The notebooks](img/lab1.png){width="500"}</center>
+
+<br>
+
+## 5 Tips
+
+-   Start a cheatsheet (e.g. in your own R markdown doc...) for Python (and Terminal) commands as a brief reference for yourself.
+
+-   Run all the commands yourself and experiment with your own code in new cells. Do not rush through these notebooks - invest in them.
+
+-   Consider taking time to [learn and practice hotkeys in Jupyter Lab](https://towardsdatascience.com/jypyter-notebook-shortcuts-bf0101a98330) - this will be a valuable use of your time!
+
+-   When you open a new notebook, you can clear the outputs to avoid confusion when you run your own cells (the system I use for these pages prevents me from being able to do this)
+
+<center>![Clear outputs](img/clear-out.png){width="400"}</center>

@@ -1,0 +1,34 @@
+---
+title: "Home"
+---
+
+## C7082 Techniques in Machine Learning and AI
+
+<center>
+
+<br>
+
+![](img/c7082-slide.png){width="400px"}
+
+</center>
+
+<br>
+
+**Welcome to C7082**. This module is a survey of methods in computational AI including aspects of **neural networks and computer vision** using Keras, Tensorflow and related systems. There is an emphasis on practical applications using a series of **data examples** and **lab exercises**, along with **lectures** on selected topics and **readings**. Prerequisites are familiarity with a statistical programming language (like Python or R) and familiarity with material in the [R Stats Bootcamp](https://rstats-bootcamp.github.io/website/).
+
+<br>
+
+## C7082 Resources
+
+-   [Chollet 2022 Deep Learning with Python 2ed](https://livebook.manning.com/book/deep-learning-with-python-second-edition/)
+
+-   [Goodfellow et al. 2017](https://www.deeplearningbook.org/)
+
+
+<br><br>
+
+## Harper Adams Data Science
+
+![](img/HDS.png){fig-alt="Harper Data Science" width="125"}
+
+This module is a part of the [MSc in Data Science for Global Agriculture, Food, and Environment](https://www.harper-adams.ac.uk/courses/postgraduate/201194/data-science-for-global-agriculture-food-and-environment "MSc in Data Science") at [Harper Adams University](https://www.harper-adams.ac.uk/ "Harper Adams University"), led by [Ed Harris](https://www.harper-adams.ac.uk/general/staff/profile/201620/Edwin-Harris/ "Ed's Faculty page").
